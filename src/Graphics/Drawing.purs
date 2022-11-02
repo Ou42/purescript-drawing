@@ -25,7 +25,8 @@ import Effect (Effect)
 import Graphics.Canvas as Canvas
 import Graphics.Drawing.Font (Font, fontString)
 import Graphics.Drawing.Font (Font) as Font
-import Math (pi)
+-- import Math (pi)
+import Data.Number (pi)
 
 -- | A `Point` consists of `x` and `y` coordinates.
 type Point = { x :: Number, y :: Number }
@@ -70,7 +71,7 @@ circle x y = arc x y 0.0 (pi * 2.0)
 -- | Create a circular arc from the left, top, start angle, end angle and
 -- | radius parameters.
 arc :: Number -> Number -> Number -> Number -> Number -> Shape
-arc x y start end radius = Arc { x, y, start, end, radius }
+arc x y start end radius = Arc { x: x, y: y, start: start, end: end, radius: radius, useCounterClockwise: false }
 
 -- | Encapsulates fill color etc.
 newtype FillStyle = FillStyle

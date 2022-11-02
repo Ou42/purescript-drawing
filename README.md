@@ -1,5 +1,9 @@
 # purescript-drawing
 
+## update to PureScript v0.15.4
+
+---
+
 [![Build Status](https://travis-ci.org/purescript-contrib/purescript-drawing.svg?branch=master)](https://travis-ci.org/purescript-contrib/purescript-drawing)
 [![Latest release](http://img.shields.io/bower/v/purescript-drawing.svg)](https://github.com/purescript-contrib/purescript-drawing/releases)
 [![Maintainer: paf31](https://img.shields.io/badge/maintainer-paf31-lightgrey.svg)](http://github.com/paf31)
